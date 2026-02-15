@@ -11,8 +11,10 @@ Overview:
 We compare traditional machine learning (k-mer features with XGBoost), neural architectures (CNN, BiLSTM, hybrid) and transformer models (DNABERT) for bacterial promoter prediction in Escherichia coli. CNNs achieve the strongest performance on RegulonDB (F1: 0.823), while BiLSTM and DNABERT show greater robustness on the UCI dataset. Genome-wide scanning reveals that DNABERT requires organism-specific fine-tuning for practical deployment.
 
 Data
-\- RegulonDB: Download from \[RegulonDB](https://regulondb.ccg.unam.mx/datasets)
-\- UCI: Download from \[UCI Repository](https://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Promoter+Gene+Sequences))
+\- RegulonDB: Download from \[RegulonDB] (https://regulondb.ccg.unam.mx/datasets)
+
+\- UCI: Download from \[UCI Repository] (https://archive.ics.uci.edu/ml/datasets/Molecular+Biology+(Promoter+Gene+Sequences))
+
 \- E. coli genome: NCBI U00096.3
 
 
@@ -23,6 +25,9 @@ Models
 \- CNN+BiLSTM hybrid
 \- DNABERT (zhihan1996/DNA\_bert\_6)
 
+Contact
+Rebeka Maneva - rebeka.maneva@students.finki.ukim.mk  
+Konstantin Lozankoski - konstantin.lozankoski@students.finki.ukim.mk
 
 Citation
 If you use this code, please cite:
@@ -32,8 +37,3 @@ If you use this code, please cite:
 &nbsp; author={Maneva, Rebeka and Lozankoski, Konstantin},
 &nbsp; year={2026}
 }
-
-Contact
-Rebeka Maneva - rebeka.maneva@students.finki.ukim.mk  
-Konstantin Lozankoski - konstantin.lozankoski@students.finki.ukim.mk
-
